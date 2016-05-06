@@ -7,8 +7,11 @@ The intention was to have a project
 to test the toolchain and the whole 
 setup (synthese tools, usb-driver, cable connection).
 
+Expected result: binary counter whose result is connected to the LEDs.
+The speed can be adjusted with the four switches (SW), SW=4'b0000 means
+halt.
 
 Build
 ========
-Just run syn.sh to do the whole Synthesis + Compilation.
+Just run `syn.sh` to do the whole Synthesis + Compilation.
 
