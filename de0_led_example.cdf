@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSEMA4U23) Path("/home/christian/Development/fpga/DE0/de0_led_example/") File("de0_led_example.sof") MfrSpec(OpMask(1));
+		Device PartName(5CSEMA4U23) Path("./") File("de0_led_example.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
