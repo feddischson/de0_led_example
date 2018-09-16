@@ -14,7 +14,9 @@ halt.
 
 Build
 ========
-Just run `syn.sh` to do the whole Synthesis + Compilation.
+Just run `make all` to do the whole Synthesis + Compilation.
+
+In addition, the two targets `make program` to load the sof file and `make flash` to flash the jic file are available.
 
 
 Howto setting up the USB-Blaster on linux
